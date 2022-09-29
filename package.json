@@ -1,0 +1,14 @@
+{
+  "name": "template-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/gazzati/template-backend.git",
+  "author": "t.gazzaev <t.gazzaev@sftpro.ru>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "scripts": {
+    "start": "node src/app.js"
+  }
+}
