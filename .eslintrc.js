@@ -2,7 +2,7 @@ module.exports = {
   root: true,
   env: {
     es6: true,
-    node: true,
+    node: true
     //"jest/globals": true
   },
   parser: "@typescript-eslint/parser",
@@ -49,7 +49,7 @@ module.exports = {
     "import/export": "error",
     "import/prefer-default-export": "off",
     "import/no-duplicates": "error",
-    "no-console": ["error", { allow: ["warn", "error"] }],
+    "no-console": ["warn", { allow: ["warn", "error"] }],
     "no-empty": ["error", { allowEmptyCatch: true }],
     "@typescript-eslint/array-type": ["error", { default: "generic" }],
     "@typescript-eslint/no-empty-interface": "off",
