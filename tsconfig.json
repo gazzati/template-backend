@@ -1,6 +1,5 @@
 {
   "compilerOptions": {
-    "experimentalDecorators": true,
     "baseUrl": "./src",
     /* Basic Options */
     "target": "ES2019" /* Specify ECMAScript target version: 'ES3' (default), 'ES5', 'ES2015', 'ES2016', 'ES2017', 'ES2018', 'ES2019', 'ES2020', or 'ESNEXT'. */,
@@ -15,14 +14,19 @@
     "forceConsistentCasingInFileNames": true /* Disallow inconsistently-cased references to the same file. */,
     "paths": {
       "@root/*": ["./*"],
-      "@database/*": ["./database/*"],
+      "@db/*": ["./db/*"],
       "@interfaces/*": ["./interfaces/*"]
-      //"@libraries/*": ["./libraries/*"],
-      //"@services/*": ["./services/*"],
-      //"@helpers/*": ["./helpers/*"],
-      //"@config/*": ["./config/*"]
     },
-    "typeRoots": ["./node_modules/@types"]
+    "typeRoots": ["./node_modules/@types"],
+    "experimentalDecorators": true,
+    //nest
+    "declaration": true,
+    "emitDecoratorMetadata": true,
+    "allowSyntheticDefaultImports": true,
+    "incremental": true,
+    "strictNullChecks": false,
+    "strictBindCallApply": false,
+    "noFallthroughCasesInSwitch": false
   },
   "include": ["src/**/*"],
   "exclude": ["node_modules"]
