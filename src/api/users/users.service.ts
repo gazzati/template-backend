@@ -8,6 +8,6 @@ export class UsersService {
   constructor(@InjectRepository(User) private userRepository: Repository<User>) {}
 
   findUsers() {
-    return this.userRepository.findOne({ select: ["name", ""] })
+    return this.userRepository.find()
   }
 }

@@ -33,7 +33,7 @@
     "typeorm": "^0.3.10"
   },
   "devDependencies": {
-    "@gazzati/eslint-config-node": "^1.0.5",
+    "@gazzati/eslint-config-node": "^1.0.7",
     "@nestjs/cli": "^9.0.0",
     "@nestjs/schematics": "^9.0.0",
     "@nestjs/testing": "^9.0.0",
