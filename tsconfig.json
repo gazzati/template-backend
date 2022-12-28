@@ -15,6 +15,7 @@
     "paths": {
       "@root/*": ["./*"],
       "@db/*": ["./db/*"],
+      "@api/*": ["./api/*"],
       "@interfaces/*": ["./interfaces/*"]
     },
     "typeRoots": ["./node_modules/@types"],
